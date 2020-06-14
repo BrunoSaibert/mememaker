@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
+  width: calc(100% - 40px);
+  margin: 50px 20px;
 
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
-  background: #fff;
+  background: #fcfcfc;
   width: 550px;
   border-radius: 8px;
   padding: 20px;
@@ -23,36 +23,49 @@ export const Card = styled.div`
     color: #392d2d;
     margin-bottom: 10px;
   }
+
+  > a img {
+    width: 100%;
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
 `;
 
 export const Templates = styled.div`
   width: 100%;
-  height: 90px;
   background: #eee;
   border-radius: 8px;
   overflow-y: auto;
-  padding: 0 15px;
+  padding: 15px 15px 5px;
   margin-bottom: 30px;
 
   display: flex;
   align-items: center;
 
   button {
-    border: 0;
+    border: 2px solid transparent;
     background: transparent;
 
     & + button {
-      margin: 0 10px;
+      margin: 0 2px;
+    }
+
+    &.selected {
+      border-color: #4395d8;
     }
 
     img {
-      width: 53px;
-      height: 53px;
+      height: 100px;
     }
   }
 `;
 
 export const Form = styled.form`
+  margin-bottom: 30px;
+
   input {
     width: 100%;
     height: 40px;
@@ -60,23 +73,9 @@ export const Form = styled.form`
     border: 1px solid #dbdbdb;
     padding: 0 15px;
     font-size: 14px;
-    margin-bottom: 10px;
-  }
-`;
 
-export const Button = styled.button`
-  width: 100%;
-  height: 40px;
-  border-radius: 8px;
-  border: 0;
-  background: #4395d8;
-  color: #fff;
-  font-size: 14px;
-  letter-spacing: 1;
-  font-weight: bold;
-  transition: background 0.2s ease-in;
-
-  &:hover {
-    background: #3672a3;
+    & + input {
+      margin-top: 10px;
+    }
   }
 `;
