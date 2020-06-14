@@ -22,7 +22,7 @@
 
 ## 🚀 Projeto
 
-O objetivo tem a finalidade de desenvolver um app para gerar memes utilizando uma API externa.
+O projeto tem a finalidade de desenvolver um app para gerar memes utilizando uma API externa.
 
 A aplicação consiste um projeto web utilizando ReactJS e Styled Components que consomem a API disponibilizada pelo site [https://imgflip.com/](https://imgflip.com/), documentação da API [https://api.imgflip.com/](https://api.imgflip.com/).
 
