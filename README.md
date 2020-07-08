@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="MemeMaker" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fc545a02-72d7-4b34-927d-0b825053d248/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200614%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200614T203604Z&X-Amz-Expires=86400&X-Amz-Signature=c82eccef07d2c66c7a9c2ccafd893a9a983bfbe809b74a26ef61f5177ccf3eef&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="200px" />
+    <img alt="MemeMaker" src="https://raw.githubusercontent.com/BrunoSaibert/mememaker/master/src/images/mememaker.png" width="200px" />
 </p>
 
 <h1 align="center">
@@ -33,16 +33,12 @@ Rotas:
 
 Para gerar a imagems com o texto, é necessário criar uma conta e passar os dados conforme a documentação.
 
-![https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a9d71023-6214-4a7d-9623-87dd062fc29f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200614%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200614T203631Z&X-Amz-Expires=86400&X-Amz-Signature=e1d1fb735e02a4460005b0921b70cfb499b694ef21293eb63566d00f1206214e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a9d71023-6214-4a7d-9623-87dd062fc29f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200614%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200614T203631Z&X-Amz-Expires=86400&X-Amz-Signature=e1d1fb735e02a4460005b0921b70cfb499b694ef21293eb63566d00f1206214e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
-
-![https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9d557109-da10-45af-9774-1f924dae9084/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200614%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200614T203703Z&X-Amz-Expires=86400&X-Amz-Signature=2a7f93fa4146de15d6b32098d57d70ec800d59ed88b8f4cd363574706f714892&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9d557109-da10-45af-9774-1f924dae9084/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200614%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200614T203703Z&X-Amz-Expires=86400&X-Amz-Signature=2a7f93fa4146de15d6b32098d57d70ec800d59ed88b8f4cd363574706f714892&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
-
 ## 💻 Executando a aplicação
 
 Após clonar o repositório, acesse a pasta do projeto
 
 ```
-$ cd fastfeet
+$ cd mememaker
 ```
 
 Em seguida, instale as dependências
@@ -63,6 +59,16 @@ Inicie o projeto
 ```
 $ yarn dev
 ```
+
+## 🖼 Imagens da aplicação~
+
+<p align="center">
+    <img alt="MemeMaker" src="https://raw.githubusercontent.com/BrunoSaibert/mememaker/master/src/images/mememaker-1.jpg" />
+</p>
+
+<p align="center">
+    <img alt="MemeMaker" src="https://raw.githubusercontent.com/BrunoSaibert/mememaker/master/src/images/mememaker-2.jpg" />
+</p>
 
 ---
 
