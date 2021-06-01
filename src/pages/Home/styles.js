@@ -65,7 +65,7 @@ export const Templates = styled.div`
 `;
 
 export const Form = styled.form`
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 
   input {
     width: 100%;
@@ -79,4 +79,17 @@ export const Form = styled.form`
       margin-top: 10px;
     }
   }
+`;
+
+export const Button = styled.button`
+  margin-bottom: 30px;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  background: #4395d8;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #dbdbdb;
+  padding: 0 15px;
+  font-size: 14px;
 `;

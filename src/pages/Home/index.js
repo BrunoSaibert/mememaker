@@ -21,8 +21,6 @@ function Home() {
       } = await resp.json();
 
       setTemplates(memes);
-
-      // alert(process.env.USERNAME);
     })();
   }, []);
 
@@ -31,9 +29,9 @@ function Home() {
     newValues[index] = e.target.value;
     setBoxes(newValues);
 
-    if (e.target.value) {
-      apiMeme();
-    }
+    // if (e.target.value) {
+    //   apiMeme();
+    // }
   };
 
   const handleSelectedTemplate = (template) => {
@@ -99,6 +97,8 @@ function Home() {
                   />
                 ))}
             </S.Form>
+
+            <S.Button onClick={() => apiMeme()}>Gerar meme</S.Button>
 
             <h2>Meme</h2>
 
